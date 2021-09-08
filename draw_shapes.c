@@ -23,6 +23,13 @@ void print_triangle(int leftCol, int size)
     for (col = 0; col < minCol; col++) putchar(' ');
     for (       ; col <= maxCol; col++) putchar('*');
     putchar('\n');
-  }
+  }  
+}
+
+// Prints an arrow or something...
+void print_arrow()
+{
+  print_triangle(3,5);
+  print_square(6, 5);
 }
 
